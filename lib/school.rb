@@ -20,7 +20,7 @@ class School
     @roster[student_grade]
   end
 
-  def sort(student_grade)
+  def sort
     @roster.sort
     # binding.pry
   end
